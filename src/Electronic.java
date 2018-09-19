@@ -104,11 +104,11 @@ public abstract class Electronic {
 		this.isOn = isOn;
 	}
 	
-	public double setTotalData() {
+	public double getTotalData() {
 		return this.totalData;
 	}
 
-	public void getTotalData(double usage) {
+	public void setTotalData(double usage) {
 		this.totalData = usage;
 	}	
 		
